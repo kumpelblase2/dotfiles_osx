@@ -1,0 +1,4 @@
+#!/bin/sh
+# Creates a directory and directly changes into it
+
+mkdir $1 && cd $1

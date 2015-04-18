@@ -1,0 +1,3 @@
+alias flushdns="dscacheutil -flushcache && killall -HUP mDNSResponder"
+alias mount_efi='mkdir /Volumes/EFI && sudo mount -t msdos /dev/disk0s1 /Volumes/EFI'
+alias update_everything='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; sudo npm update npm -g; sudo npm update -g; sudo gem update --system; sudo gem update'

@@ -1,0 +1,4 @@
+alias hafu="livestreamer twitch.tv/itshafu best"
+alias riotgames="livestreamer twitch.tv/riotgames best"
+alias beepbeep='echo "Beep beep boop."'
+alias fucking='sudo'

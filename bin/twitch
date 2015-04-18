@@ -1,0 +1,5 @@
+#!/bin/sh
+# Open livestreamer with a twitch stream.
+# Requires: livestreamer
+
+livestreamer "twitch.tv/$1" best

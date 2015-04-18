@@ -1,0 +1,6 @@
+export EDITOR='vim'
+export PROJECTS="$HOME/projects"
+export GOPATH="$PROJECTS/go"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/bin:$GOPATH/bin"
+
+[ -f ~/.env_local ] && source ~/.env_local

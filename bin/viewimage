@@ -1,0 +1,5 @@
+#!/bin/sh
+# Downloads an image from the web and displays it in the console
+# Requires: catimg
+
+wget -O "./_viewimage_.jpg" $1 && catimg "./_viewimage_.jpg" && rm "./_viewimage_.jpg"

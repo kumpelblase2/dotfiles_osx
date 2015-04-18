@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Shortcut for amending to last commit.
+
+git commit --amend -C HEAD

@@ -1,0 +1,19 @@
+[hub]
+        protocol = https
+[filter "media"]
+        required = true
+        clean = git media clean %f
+        smudge = git media smudge %f
+[color]
+        ui = auto
+        diff = auto
+        status = auto
+        branch = auto
+[core]
+        excludesfile = ~/.gitignore
+        autocrlf = input
+        editor = vim
+[push]
+        default = simple
+[include]
+        path = ~/.gitconfig_local

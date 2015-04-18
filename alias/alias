@@ -1,0 +1,21 @@
+alias please='sudo $(fc -ln -1)'
+alias git=hub
+alias clear='clear && cat /etc/motd'
+alias cl='cd && clear'
+alias fuck='$(thefuck $(fc -ln -1))'
+
+if [ -f ~/.alias_fun ]; then
+    source ~/.alias_fun
+fi
+
+
+platform=$(uname)
+if [[ "$platform" == 'Darwin' ]]; then
+    source ~/.alias_osx
+else
+    source ~/.alias_other
+fi
+
+if [ -f ~/.alias_local ]; then
+    source ~/.alias_local
+fi

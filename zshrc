@@ -1,5 +1,3 @@
-EDITOR=vim
-
 source $HOME/.antigen/antigen.zsh
 
 

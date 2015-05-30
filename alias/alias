@@ -4,6 +4,10 @@ alias clear='clear && cat /etc/motd'
 alias cl='cd && clear'
 alias fuck='$(thefuck $(fc -ln -1))'
 
+rtop() {
+	ssh "$1" -t top
+}
+
 if [ -f ~/.alias_fun ]; then
     source ~/.alias_fun
 fi
